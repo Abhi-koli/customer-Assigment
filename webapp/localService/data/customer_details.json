@@ -1,0 +1,1907 @@
+{
+	"feed": {
+		"title": {
+			"_type": "text",
+			"__text": "Customers"
+		},
+		"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers",
+		"updated": "2024-04-11T04:39:07Z",
+		"link": [
+			{
+				"_rel": "self",
+				"_title": "Customers",
+				"_href": "Customers"
+			},
+			{
+				"_rel": "next",
+				"_href": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers?$skiptoken='ERNSH'"
+			}
+		],
+		"entry": [
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('ALFKI')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('ALFKI')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('ALFKI')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('ALFKI')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "ALFKI"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Alfreds Futterkiste"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Maria Anders"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Sales Representative"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Obere Str. 57"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Berlin"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "12209"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Germany"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "030-0074321"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "030-0076545"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('ANATR')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('ANATR')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('ANATR')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('ANATR')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "ANATR"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Ana Trujillo Emparedados y helados"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Ana Trujillo"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Owner"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Avda. de la Constitución 2222"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "México D.F."
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "05021"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Mexico"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(5) 555-4729"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(5) 555-3745"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('ANTON')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('ANTON')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('ANTON')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('ANTON')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "ANTON"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Antonio Moreno Taquería"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Antonio Moreno"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Owner"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Mataderos  2312"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "México D.F."
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "05023"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Mexico"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(5) 555-3932"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('AROUT')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('AROUT')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('AROUT')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('AROUT')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "AROUT"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Around the Horn"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Thomas Hardy"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Sales Representative"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "120 Hanover Sq."
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "London"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "WA1 1DP"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "UK"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(171) 555-7788"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(171) 555-6750"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('BERGS')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('BERGS')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('BERGS')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('BERGS')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "BERGS"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Berglunds snabbköp"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Christina Berglund"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Order Administrator"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Berguvsvägen  8"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Luleå"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "S-958 22"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Sweden"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "0921-12 34 65"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "0921-12 34 67"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('BLAUS')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('BLAUS')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('BLAUS')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('BLAUS')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "BLAUS"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Blauer See Delikatessen"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Hanna Moos"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Sales Representative"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Forsterstr. 57"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Mannheim"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "68306"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Germany"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "0621-08460"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "0621-08924"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('BLONP')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('BLONP')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('BLONP')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('BLONP')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "BLONP"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Blondesddsl père et fils"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Frédérique Citeaux"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Marketing Manager"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "24, place Kléber"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Strasbourg"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "67000"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "France"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "88.60.15.31"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "88.60.15.32"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('BOLID')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('BOLID')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('BOLID')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('BOLID')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "BOLID"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Bólido Comidas preparadas"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Martín Sommer"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Owner"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "C/ Araquil, 67"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Madrid"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "28023"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Spain"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(91) 555 22 82"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(91) 555 91 99"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('BONAP')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('BONAP')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('BONAP')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('BONAP')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "BONAP"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Bon app'"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Laurence Lebihan"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Owner"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "12, rue des Bouchers"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Marseille"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "13008"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "France"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "91.24.45.40"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "91.24.45.41"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('BOTTM')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('BOTTM')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('BOTTM')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('BOTTM')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "BOTTM"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Bottom-Dollar Markets"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Elizabeth Lincoln"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Accounting Manager"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "23 Tsawassen Blvd."
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Tsawassen"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "BC"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "T2F 8M4"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Canada"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(604) 555-4729"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(604) 555-3745"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('BSBEV')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('BSBEV')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('BSBEV')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('BSBEV')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "BSBEV"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "B's Beverages"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Victoria Ashworth"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Sales Representative"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Fauntleroy Circus"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "London"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "EC2 5NT"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "UK"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(171) 555-1212"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('CACTU')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('CACTU')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('CACTU')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('CACTU')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "CACTU"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Cactus Comidas para llevar"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Patricio Simpson"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Sales Agent"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Cerrito 333"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Buenos Aires"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "1010"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Argentina"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(1) 135-5555"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(1) 135-4892"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('CENTC')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('CENTC')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('CENTC')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('CENTC')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "CENTC"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Centro comercial Moctezuma"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Francisco Chang"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Marketing Manager"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Sierras de Granada 9993"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "México D.F."
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "05022"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Mexico"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(5) 555-3392"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(5) 555-7293"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('CHOPS')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('CHOPS')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('CHOPS')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('CHOPS')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "CHOPS"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Chop-suey Chinese"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Yang Wang"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Owner"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Hauptstr. 29"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Bern"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "3012"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Switzerland"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "0452-076545"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('COMMI')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('COMMI')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('COMMI')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('COMMI')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "COMMI"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Comércio Mineiro"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Pedro Afonso"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Sales Associate"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Av. dos Lusíadas, 23"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Sao Paulo"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "SP"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "05432-043"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Brazil"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(11) 555-7647"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('CONSH')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('CONSH')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('CONSH')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('CONSH')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "CONSH"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Consolidated Holdings"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Elizabeth Brown"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Sales Representative"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Berkeley Gardens 12  Brewery"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "London"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "WX1 6LT"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "UK"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(171) 555-2282"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(171) 555-9199"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('DRACD')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('DRACD')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('DRACD')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('DRACD')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "DRACD"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Drachenblut Delikatessen"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Sven Ottlieb"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Order Administrator"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Walserweg 21"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Aachen"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "52066"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Germany"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "0241-039123"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "0241-059428"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('DUMON')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('DUMON')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('DUMON')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('DUMON')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "DUMON"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Du monde entier"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Janine Labrune"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Owner"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "67, rue des Cinquante Otages"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Nantes"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "44000"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "France"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "40.67.88.88"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "40.67.89.89"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('EASTC')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('EASTC')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('EASTC')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('EASTC')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "EASTC"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Eastern Connection"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Ann Devon"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Sales Agent"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "35 King George"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "London"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "WX3 6FW"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "UK"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(171) 555-0297"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "(171) 555-3373"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			},
+			{
+				"id": "https://services.odata.org/V2/Northwind/Northwind.svc/Customers('ERNSH')",
+				"title": {
+					"_type": "text"
+				},
+				"updated": "2024-04-11T04:39:07Z",
+				"author": {
+					"name": ""
+				},
+				"link": [
+					{
+						"_rel": "edit",
+						"_title": "Customer",
+						"_href": "Customers('ERNSH')"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/Orders",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "Orders",
+						"_href": "Customers('ERNSH')/Orders"
+					},
+					{
+						"_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/CustomerDemographics",
+						"_type": "application/atom+xml;type=feed",
+						"_title": "CustomerDemographics",
+						"_href": "Customers('ERNSH')/CustomerDemographics"
+					}
+				],
+				"category": {
+					"_term": "NorthwindModel.Customer",
+					"_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+				},
+				"content": {
+					"properties": {
+						"CustomerID": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "ERNSH"
+						},
+						"CompanyName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Ernst Handel"
+						},
+						"ContactName": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Roland Mendel"
+						},
+						"ContactTitle": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Sales Manager"
+						},
+						"Address": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Kirchgasse 6"
+						},
+						"City": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Graz"
+						},
+						"Region": {
+							"_m:type": "Edm.String",
+							"_m:null": "true",
+							"__prefix": "d"
+						},
+						"PostalCode": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "8010"
+						},
+						"Country": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "Austria"
+						},
+						"Phone": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "7675-3425"
+						},
+						"Fax": {
+							"_m:type": "Edm.String",
+							"__prefix": "d",
+							"__text": "7675-3426"
+						},
+						"__prefix": "m"
+					},
+					"_type": "application/xml"
+				}
+			}
+		],
+		"_xmlns:d": "http://schemas.microsoft.com/ado/2007/08/dataservices",
+		"_xmlns:m": "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata",
+		"_xmlns": "http://www.w3.org/2005/Atom",
+		"_xml:base": "https://services.odata.org/V2/Northwind/Northwind.svc/"
+	}
+}
